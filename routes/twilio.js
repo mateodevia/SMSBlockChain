@@ -7,7 +7,7 @@ router.post("/newmessage", (req, res) => {
   const newMessage = req.body.Body;
   const usuario = req.body.From;
   let partes = newMessage.split(".");
-  let ids = "\n";
+  let ids = "Sus código:\n";
   for (let i = 0; i < parseInt(partes[1]); i++) {
     ids =
       ids +
