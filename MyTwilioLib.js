@@ -10,7 +10,7 @@ const MyTwilioLib = function() {
       .create({
         body: mensaje,
         from: "+17543336872",
-        to: "+573023701748"
+        to: usuario
       })
       .then(message => console.log(message.sid));
   };
