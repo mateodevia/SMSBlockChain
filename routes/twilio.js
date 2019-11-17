@@ -37,7 +37,7 @@ router.post("/newmessage", (req, res) => {
   }
 
   axios
-    .post("http://172.31.26.137:3000/transformaciones", transformaciones, {
+    .post("http://34.207.164.130:3000/transformaciones", transformaciones, {
       headers: {
         "Content-Type": "text/json"
       }
@@ -52,7 +52,7 @@ router.post("/newmessage", (req, res) => {
     );
 
   axios
-    .post("http://172.31.26.137:3000/hijos", hijos, {
+    .post("http://34.207.164.130:3000/hijos", hijos, {
       headers: {
         "Content-Type": "text/json"
       }
